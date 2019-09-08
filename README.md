@@ -23,14 +23,9 @@
 - 就是在git中设置当前使用的用户是谁
 - 每一次备份都会把当前备份者的信息存储起来
 - 命令: 
-    + 配置用户名:`git config --global user.name "xiaoming"`
-    + 配置邮箱:  `git config --global user.email "xm@sina.com"`
+    + 配置用户名:`git config --global user.name "zougj"`
+    + 配置邮箱:  `git config --global user.email "1175091696@qq.com"`
 
-
-## 把大象放到冰箱要几步
-1. 打开冰箱门
-2. 放大象
-3. 关上冰箱
 
 ## 把代码存储到.git仓储中
 - 1.把代码放到仓储的门口
@@ -101,7 +96,7 @@
 
 ### 提交代码到github(当作git服务器来用)
 - `git push [地址] master`
- + 示例: `git push https://github.com/huoqishi/test112.git master  master`
+ + 示例: `git push https://github.com/1175091696/text-git.git`
  + 会把当前分支的内容上传到远程的master分支上
 
 - `git pull [地址] master`
